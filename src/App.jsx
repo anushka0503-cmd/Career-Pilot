@@ -1,17 +1,13 @@
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 import './App.css'
 
 function App() {
   return (
     <>
       <Navbar />
-
-      <main>
-        <h1>Welcome to CareerPilot</h1>
-        <p>Navigate Your Career Journey</p>
-      </main>
+      <Hero />
     </>
   )
 }
-
 export default App
