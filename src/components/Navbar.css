@@ -1,4 +1,4 @@
-/* Navbar */
+/*               Navbar                  */
 .navbar {
   width: 100%;
   background: #ffffff;
@@ -19,7 +19,7 @@
   gap: 30px;
 }
 
-/* Logo */
+/*                    Logo                          */
 .logo {
   display: flex;
   align-items: center;
@@ -35,7 +35,7 @@
   color: #6d28d9;
 }
 
-/* Navigation Links */
+/*                 Navigation Links                         */
 .nav-links {
   display: flex;
   align-items: center;
@@ -54,7 +54,7 @@
   color: #6d28d9;
 }
 
-/* Right-side buttons */
+/*                   Right-side buttons                       */
 .nav-actions {
   display: flex;
   align-items: center;
@@ -99,7 +99,7 @@
   background: #5b21b6;
 }
 
-/* Responsive Navbar */
+/*                       Responsive Navbar                          */
 @media (max-width: 800px) {
   .navbar-container {
     flex-wrap: wrap;

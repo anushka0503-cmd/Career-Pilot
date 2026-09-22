@@ -1,0 +1,207 @@
+/*                Hiring News Section       */
+.hiring-news {
+  padding: 110px 8%;
+  background: #f8f7ff;
+  color: #1f2937;
+}
+
+/*          Section Heading            */
+.hiring-news-heading {
+  max-width: 760px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.news-label {
+  margin: 0 0 14px;
+  color: #6d28d9;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+
+.hiring-news-heading h2 {
+  margin: 0 0 18px;
+  color: #111827;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.news-description {
+  max-width: 700px;
+  margin: 0 auto;
+  color: #6b7280;
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+/*          News Cards               */
+.news-container {
+  max-width: 1150px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.news-card {
+  min-height: 300px;
+  padding: 30px 26px;
+
+  display: flex;
+  flex-direction: column;
+
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-7px);
+  border-color: #ddd6fe;
+  box-shadow: 0 15px 35px rgba(109, 40, 217, 0.12);
+}
+
+/*           Category             */
+.news-category {
+  align-self: flex-start;
+  margin-bottom: 20px;
+  padding: 6px 11px;
+
+  border-radius: 20px;
+  background: #ede9fe;
+  color: #6d28d9;
+
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/*         Card Content            */
+.news-card h3 {
+  margin: 0 0 14px;
+  color: #111827;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.news-card p {
+  margin: 0;
+  color: #6b7280;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/*           Bottom                */
+.news-card-bottom {
+  margin-top: auto;
+  padding-top: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+
+  border-top: 1px solid #f0f0f0;
+}
+
+.news-date {
+  color: #9ca3af;
+  font-size: 13px;
+}
+
+.read-more {
+  color: #6d28d9;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.read-more:hover {
+  color: #5b21b6;
+}
+
+/*                    View All Button             */
+.all-news-wrapper {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.all-news-btn {
+  display: inline-block;
+  padding: 11px 20px;
+
+  border: 1px solid #6d28d9;
+  border-radius: 8px;
+
+  color: #6d28d9;
+  text-decoration: none;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.all-news-btn:hover {
+  background: #6d28d9;
+  color: #ffffff;
+}
+
+/*               Tablet             */
+@media (max-width: 1000px) {
+  .news-container {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 760px;
+  }
+
+  .hiring-news-heading h2 {
+    font-size: 36px;
+  }
+}
+
+/*                Mobile                  */
+@media (max-width: 600px) {
+  .hiring-news {
+    padding: 75px 6%;
+  }
+
+  .hiring-news-heading {
+    margin-bottom: 45px;
+  }
+
+  .news-label {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+  .hiring-news-heading h2 {
+    font-size: 30px;
+    line-height: 1.25;
+  }
+
+  .news-description {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .news-container {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .news-card {
+    min-height: auto;
+    padding: 28px 22px;
+  }
+}

@@ -5,7 +5,7 @@
   text-align: center;
 }
 
-/* Section Heading */
+/*            Section Heading            */
 
 .section-heading {
   max-width: 760px;
@@ -37,7 +37,7 @@
   line-height: 1.75;
 }
 
-/* Steps */
+/*            Steps                   */
 
 .steps-container {
   max-width: 1150px;
@@ -71,7 +71,7 @@
   box-shadow: 0 15px 35px rgba(109, 40, 217, 0.13);
 }
 
-/* Step Number */
+/*              Step Number                  */
 
 .step-number {
   width: 54px;
@@ -92,7 +92,7 @@
   box-shadow: 0 6px 15px rgba(109, 40, 217, 0.2);
 }
 
-/* Step Content */
+/*               Step Content                 */
 
 .step-card h3 {
   margin: 0 0 14px;
@@ -109,7 +109,7 @@
   line-height: 1.75;
 }
 
-/* Tablet */
+/*                Tablet                */
 
 @media (max-width: 1000px) {
   .steps-container {
@@ -126,7 +126,7 @@
   }
 }
 
-/* Mobile */
+/*             Mobile                  */
 
 @media (max-width: 600px) {
   .how-it-works {
